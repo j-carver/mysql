@@ -24,3 +24,6 @@ volumes:
 - claim: mysql-pvc
   mount: /var/lib/mysql
   name: data
+- claim: mysql-backup-pvc
+  mount: /appz/backup
+  name: backup
